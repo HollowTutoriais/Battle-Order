@@ -49,13 +49,15 @@ top: 0; left: 0;}
 .topico {width: 100%; font-size:1.2em; color:#b10805; margin-top: 2%}
 .texto {width: 100$; color: #130400; margin-top: 2%; font-size: 25px;}
 .h1 {color:#da6709; width: 100%; font-size: 30px;}
-h1 {color:#da6709; width: 100%; font-size: 30px; margin-top: 15px;}
+h1 {color:#da6709; width: 100%; font-size: 45px; margin-top: 15px;}
 .sha {border:1px solid black; border-radius: 7px 7px 7px 7px; background-color: #05050533;
  margin-right: 20px; margin-left: 20px;padding: 10px;}
 /*===feedback===*/
 .container {border:1px solid black; border-radius: 7px 7px 7px 7px; background-color: #05050533;
- margin-right: 20px; margin-left: 20px;padding: 10px; font-size: 1.2em; text-align: center;}
-.oi {width: 100%; margin-top: 2%;}
+ margin-right: 20px; margin-left: 20px;padding: 10px;; text-align: center;}
+.container2 {margin-top:15px; border:1px solid black; border-radius: 7px 7px 7px 7px; 
+ background-color:#666666; margin-right: 10px; margin-left: 10px;padding: 5px; text-align: center;}
+.oi {width: 100%; margin-top: 20px;}
 .blue {color:#02b6e8;}
 .red {color:#e90202;}
 .yellow {color:#e8d902;}
@@ -63,6 +65,6 @@ h1 {color:#da6709; width: 100%; font-size: 30px; margin-top: 15px;}
 .black {color:#050505;}
 .cyan {color:#098a54;}
 .orange {color:#95680e;}
-h2 {width: 100%; color:#130400; margin-top: 25px;font-size: 27px;}
-h3 {width: 100%; color:#0c8d40; margin-top: 10px;}
-.bt {border-radius: 7px 7px 7px 7px; background-color:#999999; margin-top: 15px;}
+h2 {width: 100%; color:#003b1a; margin-top: 10px;font-size: 35px;}
+h3 {width: 100%; color:#0c8d40; margin-top: 10px;text-align: center}
+p {font-size:27px; color: #130400; line-height: 1.5em;}
