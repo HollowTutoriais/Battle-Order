@@ -51,7 +51,7 @@ nav{
 }
 @media (max-width:  999px){
             body{
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .nav-list{
         position: absolute;
