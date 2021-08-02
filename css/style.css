@@ -50,7 +50,7 @@ nav{
     transition: 0.3s;
 }
 @media (max-width:  999px){
-    body{
+            body{
         overflow-x: hidden;
     }
     .nav-list{
@@ -70,13 +70,13 @@ nav{
         margin-left: 0;
         opacity: 0;
     }
-    .mobile-menu{
+        .mobile-menu{
         display: block;
     }
 }
-.nav-list.active{
+    .nav-list.active{
     transform: translateX(0);
-}
+    }
 
 @keyframes naviLinkFade {
     from{
