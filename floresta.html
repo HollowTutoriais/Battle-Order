@@ -9,30 +9,28 @@
         <meta name="keywords" content="RPG criação mundo aberto">
         <meta name="robots" content="index, follow">
         <meta name="author" content="Samuel Reis">
-        <link rel="stylesheet" href="css2/style2.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@800&display=swap" rel="stylesheet">
         <link rel="icon" href="img/icon2.png">
     </head>
-        <header class="cabecalho">
-         <h1 class="logo">Mapa Floresta C.T.H</h1>
-         <button class="btn-menu"> <i class="fa fa-bars fa-lg" aria-hidden="true"></i> </button>
-         <nav class="menu">
-            <a class="btn-close"><i class="fa fa-times"></i></a>
-            <ul class="links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="nova-pagina.html">Sistemas</a></li>
-                <li><a href="feedback.html">FeedBack</a></li>
-                <li><a href="saitama.html">Mapa Cidade Saitama</a></li>
-                <li><a href="karakura.html">Mapa Cidade Karakura</a></li>
-                <li><a href="organizacao.html">Organizações</a></li>
-                <li><a href="procurados.html">Procurados</a></li>
-            </ul>
-        </nav>
-        </header>
-    
     <body>
-        <div class="container">
+        <header>
+            <nav>
+                <a class="cab" href="index.html">Pagina Inicial</a>
+                <div class="mobile-menu">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                    <div class="linha3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="mapas.html">Mapas</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main></main>
+        <script src="mobile-navbar.js"></script>
+        <div class="container2">
             <div>
                 <h1>MAPA C.T.H FLORESTA</h1>
                 
@@ -136,7 +134,7 @@
                     <img src="img2/entradu.png" width="550" height="350"/>
                 </div>
                             <div>
-                    <h2>BIBLIOTECA ABANDONADA(2K - 30MIN)</h2>
+                    <h2>BIBLIOTECA ABANDONADA(2K - 1 Livro)</h2>
 
                     <img src="img2/florestabiblioteca.jpg" width="550" height="350"/>
                 </div>
@@ -292,15 +290,7 @@
                 </div>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script>
-            $(".btn-menu").click(function(){
-            $(".menu").show();
-            });
-            $(".btn-close").click(function(){
-            $(".menu").hide();
-            });
-        </script>
+       <div><button class="btn"><a href="floresta.html">Voltar Ao Topo</a></button></div>
     </body>
     </body>
 </html>

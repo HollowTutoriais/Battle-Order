@@ -9,31 +9,39 @@
         <meta name="keywords" content="RPG criação mundo aberto">
         <meta name="robots" content="index, follow">
         <meta name="author" content="Samuel Reis">
-        <link rel="stylesheet" href="css2/style2.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@800&display=swap" rel="stylesheet">
         <link rel="icon" href="img/icon2.png">
 </head>
 
 <body>
-    <header class="cabecalho">
-         <h1 class="logo">Spam RPG C.T.H</h1>
-         <button class="btn-menu"> <i class="fa fa-bars fa-lg" aria-hidden="true"></i> </button>
-         <nav class="menu">
-            <a class="btn-close"><i class="fa fa-times"></i></a>
-            <ul class="links">
-                <li><a href="index.html">Home</a></li>
-            </ul> 
-        </nav>
+    <header>
+            <nav>
+                <a class="cab" href="index.html">Pagina Inicial</a>
+                <div class="mobile-menu">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                    <div class="linha3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="nova-pagina.html">Sistemas</a></li>
+                    <li><a href="mapas.html">Mapas</a></li>
+                    <li><a href="organizacao.html">Organizações</a></li>
+                </ul>
+            </nav>
         </header>
+        <main></main>
+        <script src="mobile-navbar.js"></script>
+
         <center>
     <div>
-        <h1 id="title">BEM VINDOS AO RPG COMPANY C.T.H</h1>
-            <img src="img2/background2.jpeg"/>
+        <h1 class="h1">BEM VINDOS AO RPG COMPANY C.T.H</h1>
+            <img src="img2/joão.png"/>
         </center>
         <div class="container">
             <div>
-                <h1> RPG Company C.T.H</h1>
+                <h1 class="h1"> RPG Company C.T.H</h1>
                 <div>
                     <span class="texto">
                         <p class="topico">Inspiração:</p>
@@ -75,39 +83,5 @@
             </div>
         </div>
     </div>
-
-    <script type="text/javascript">
-
-        function changeColor(element, _class, _time) {
-            var actived = false;
-            var time = _time !== undefined ? _time : 200
-
-            setInterval(function () {
-                if (!actived)
-                    element.classList.add(_class)
-                else
-                    element.classList.remove(_class)
-
-                actived = !actived
-            }, time)
-        }
-
-        var title = document.querySelector("#title");
-        var link = document.querySelector("#link");
-        var atributos = document.querySelector("#atributos");
-
-        changeColor(title, 'red', 200);
-        changeColor(link, 'yellow', 200);
-
-    </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script>
-            $(".btn-menu").click(function(){
-            $(".menu").show();
-            });
-            $(".btn-close").click(function(){
-            $(".menu").hide();
-            });
-        </script>
 </body>
 </html>

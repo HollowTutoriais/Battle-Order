@@ -4,35 +4,34 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="height=device-height, initial-scale=1">
-        <title>Mapa Cidade Karakura C.T.H.</title>
+        <title>Mapa Cidade Karakura C.T.H</title>
         <meta name="description" content="RPG de historia aventura mundo aberto e criação de personagem">
         <meta name="keywords" content="RPG criação mundo aberto">
         <meta name="robots" content="index, follow">
         <meta name="author" content="Samuel Reis">
-        <link rel="stylesheet" href="css2/style2.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@800&display=swap" rel="stylesheet">
         <link rel="icon" href="img/icon2.png">
     </head>
     
     <body>
-<header class="cabecalho">
-         <h1 class="logo">Site Oficial RPG C.T.H</h1>
-         <button class="btn-menu"> <i class="fa fa-bars fa-lg" aria-hidden="true"></i> </button>
-         <nav class="menu">
-            <a class="btn-close"><i class="fa fa-times"></i></a>
-            <ul class="links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="nova-pagina.html">Sistemas</a></li>
-                <li><a href="feedback.html">FeedBack</a></li>
-                <li><a href="saitama.html">Mapa Cidade Saitama</a></li>
-                <li><a href="floresta.html">Mapa Floresta</a></li>
-                <li><a href="organizacao.html">Organizações</a></li>
-                <li><a href="procurados.html">Procurados</a></li>
-            </ul>
-        </nav>
+        <header>
+            <nav>
+                <a class="cab" href="index.html">Pagina Inicial</a>
+                <div class="mobile-menu">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                    <div class="linha3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="mapas.html">Mapas</a></li>
+                </ul>
+            </nav>
         </header>
-        <div class="container">
+        <main></main>
+        <script src="mobile-navbar.js"></script>
+        <div class="container2">
         <!-- MAP CTH-->
             <div>
                 <h1>MAPA KARAKURA</h1> 
@@ -82,7 +81,7 @@
 
                 </div>
                 <div>
-                    <h2>CASA NUMERO 76(Ebrecher)</h2>
+                    <h3>CASA NUMERO 76(R$-4.000M)</h3>
 
                     <img src="img2/76.jpg" width="500" height="300"/>
 
@@ -131,9 +130,9 @@
 
                 </div>
                 <div>
-                    <h3>LOJA DE ARMAS (clique na imgaem p/ ver itens)</h3>
+                    <h3>LOJA DE ARMAS</h3>
 
-                    <a href="armaskarakura.html"><img src="img2/gun.jpg" width="500" height="300"/><a/>
+                    <img src="img2/gun.jpg" width="500" height="300"/>
 
                 </div>
                 <div>
@@ -314,15 +313,7 @@
                     <img src="img2/a7.jpg" width="500" height="300"/>
 
                 </div>
+                <div><button class="btn"><a href="karakura.html">Voltar Ao Topo</a></button></div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script>
-            $(".btn-menu").click(function(){
-            $(".menu").show();
-            });
-            $(".btn-close").click(function(){
-            $(".menu").hide();
-            });
-        </script>
     </body>
 </html>
