@@ -1,76 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-        <title>C.T.H RPG</title>
-        <meta name="description" content="RPG de historia aventura mundo aberto e criação de personagem">
-        <meta name="keywords" content="RPG criação mundo aberto">
-        <meta name="robots" content="index, follow">
-        <meta name="author" content="Samuel Reis">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@800&display=swap" rel="stylesheet">
-        <link rel="icon" href="img/icon2.png">
-    </head>
-    <body>
-        <header id="header">
-          <a id="logo">City To Hell</a>
-            <nav id="nav">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">MENU
-        <span id="hamburger"></span>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battle Order</title>
+  <link rel="stylesheet" href="./assets/styles/globals.css">
+  <link rel="stylesheet" href="./assets/styles/index.css">
+  <link rel="shortcut icon" href="./public/Logo.png" type="image/x-icon">
+</head>
+<body>
+
+  <nav class="navbar fixed-top">
+      <div class="title-navbar">
+        <h2>Battle Order</h2>
+      </div>
+      <button class="btn active-colapsed" id="btn-navbar">
+        <span class="hamburguer ht"></span>
+        <span class="hamburguer hc"></span>
+        <span class="hamburguer hb"></span>
       </button>
-                <ul id="menu">
-                    <li><a href="nova-pagina.html">Sistemas</a></li>
-                    <li><a href="spam.html">Sobre o RPG</a></li>
-                    <li><a href="mapas.html">Mapa New York</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main></main>
+      <div class="container-navbar colapsed-none" id="colapsed-menu">
+        <a href="./index.html" class="link-navbar active-navbar">ínicio</a>
+        <a href="./guildas.html" class="link-navbar">Guildas</a>
+        <a href="./mapa.html" class="link-navbar">Mapa</a>
+        <a href="./raca.html" class="link-navbar">Raças</a>
+        <a href="./classe.html" class="link-navbar">Classes</a>
+        <a href="./equipe.html" class="link-navbar">Equipe</a>
+      </div>
+  </nav>
 
-                <div class="banner container">
-            <div class="title">
-                <h2>DESEJA PARTICIPAR?</h2>
-                <h6 class="borda">Graças a uma combinação de cultura Geek e inspiração de vários trabalhos, o RPG City to Hell ou C.T.H é um mundo quase 100% inexplorado que visa inspirar diversão com a criação de um personagem. Depois, o jogador pode explorar esse novo mundo fortalecendo seu personagem e embarcando em qualquer aventura que desejar.</h6>
-                <h5 class="borda">Abaixo você encontra o acesso a nosso Discord e RPG no WhatsApp </h5>
-            </div>
-                <div class="colunas">
-                    <a href="https://discord.gg/JyEbRQeXNV">
-                    <img class="link" src="img/discord.png" width="100" height="100"/>
-                    <a href="https://chat.whatsapp.com/IL7F1EyFHgi78u3T8KeM84">
-                    <img class="link" src="img/whatsapp.png" width="100" height="100"/>
-                </div>
-            <center>
-                
-            </center>
-                </div>
-        <main class="servicos">
-            <center>
-                <div class="inner">
-                    <a class="imgborder"><img src="img/bg3.png" border="10px"></a>
-                    <p>Esse é o simbolo que representa o ser ancestor de tudo e todos no RPG e envolta dele seus respectivos Aspectos que agem como pilares no RPG, sendo eles "Amor, Morte, Vida, Ódio e Razão" O ser ancestor "Ether" se dividiu entre esses 5 aspectos para que todos cuidassem do equilíbrio desse universo.</p>
-                </div>
-                
-            <div class="container2">
-                <a >Quem Somos?</a>
-                    <h4>Jogadores, ADM'S e Amigos</h4>
-                    <p>Sempre fomos uma comunidade interessada em histórias, aventura e fantasia, com o objetivo de criar novas amizades e histórias diferentes em nosso RPG.</p>
-            </div><div class="container2">
-                <a >Mapa</a>
-                    <h4>Sua liberdade dentro do RPG</h4>
-                    <p>O mapa principal do RPG é inspirado na cidade real de NY, existem algumas mudanças no RPG, mas sua aventura não se limita a isso, você pode ir a qualquer lugar do mundo, sua liberdade é a melhor que você pode ter.</p>
-            </div>
-        </main>
-        <section class="newsletter">
-            <h2>CONTATO DOS ADM'S</h2>
-            <h3>SAM = 11 94160-6308</h3>
-            <h3>NICK =  11 93929-9790</h3>
-            <h3>AIZAWA = 11 95838-6740</h3>
-            <h3>DANZETSU = 16 98248-4005</h3>
+  <main>
+    <div class="banner">
+      <div class="blur">
+        <h1 class="title">Battle Order</h1>
+        <p class="p-container">Entre em nosso mundo e explore Eldia!
+        </p>
+        <a class="link-whatsapp" href="https://chat.whatsapp.com/IL7F1EyFHgi78u3T8KeM84">Participe</a>
+      </div>
+      <div>
+        <img class="logo-banner" src="./public/Logo2.png" alt="dark Universe" >
+      </div>
+      
+    </div>
 
-            <h1><strong>CTH - Todos os direitos reservados</strong></h1>
-        </section>
-<script src="mobile-navbar.js"></script>
-    </body>
+    <div class="container sinopse">
+      <h2>Back History</h2>
+      <div class="text-container">
+        <p>Ao fim da chamada Legião ou Batalha dos mundos. Eldia se expandiu de forma rápida gerando outros diversos reinos em seu continente. Agora com vestigios da guerra, podem ser encontradas caminhando por nossas terras as chamadas criaturas da noite, as mesmas que participaram da guerra ao lado do exercito de Macaria, mas que ao fim da guerra se tornaram "amigáveis" tentando ter seu lugar em cada reino.</p>
+
+        <p>Essa expansão gerou inimizades entre alguns reis do continente. Essa inimizade gerou a privatização de materias primas e outras materias mais evoluidas para época. Kindra o reino mais avançado em questão de materiais se lacrou impedindo qualquer um de entrar em suas terras para buscar evolução. Midland se tornou um reino caótico controlado por um rei perverso que tomou para sí o controle da Dark Forest e de seu Solo Sagrado.</p>
+
+        <p>Com tudo isso ocorrendo pelo Continente algumas Guildas começaram a crescer novamente resurgindo para conseguirem ter poder de fogo o suficiente caso outra guerra voltasse a acontecer. E isso parecia estar cada vez mais próximo de acontecer. Pois rumores vindos de Bandópolis afirmaram que os Dragões estavam mais uma vez se levantando para iniciar sua nova colonização... Que dessa vez se tornaria mundial...</p>
+
+        <center><p>Battle Order - A cruzada dos Dragões.</p></center>
+      </div>
+    </div>
+
+    <div class="container topic">
+      <h2 class="title-topic">Porque ingressar em nosso mundo?</h2>
+      <div class="text-container">
+        <ul class="topic-list">
+          <li>Sistema Bem desenvolvido e de fácil adaptação para todos.</li>
+          <li>Sem panelinha, todo mundo cena com todo mundo.</li>
+          <li>O RPG tem seu foco em aventuras pelo continente e mundo do Battle Order.</li>
+          <li>Nosso RPG se passa na era medieval mais não se prende apenas a este eixo.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <h1>BATTLE ORDER - Direitos Reservados ©</h1>
+  </footer>
+  
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="./assets/scripts/navbar.js"></script>
 </html>
