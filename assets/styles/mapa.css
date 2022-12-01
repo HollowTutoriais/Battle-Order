@@ -2,7 +2,7 @@
 
 
 .title-page{
-    margin: 2rem;
+    margin: 1rem;
     font-size: 30pt;
     font-family: 'Syne Mono', cursive;
     text-align: center;
@@ -45,7 +45,12 @@
     border-radius: 20px;
 }
 
-
+h1{
+    font-size: 17pt;
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+}
 
 .l-manhattan{
     border: 1px solid green;
@@ -63,7 +68,7 @@
     text-align: center;
     margin: 1rem;
     text-transform: uppercase;
-    font-size: 30pt;
+    font-size: 22pt;
 }
 
 .manhattan{
