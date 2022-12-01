@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
 .organizacoes{
     display: flex;
     justify-content: center;
@@ -6,8 +8,16 @@
 }
 
 .organizacoes img{
-    width: 50%;
+    width: 100%;
+    margin: 0rem 0rem;
+}
+
+h1 {
+    font-family: 'Syne Mono';
+    font-size: 23px;
     margin: 2rem 1rem;
+    width: 100%;
+    text-align: center;
 }
 
 @media (max-width:900px){
